@@ -1,0 +1,20 @@
+{
+    "name": "system-resource-monitoring",
+    "version": "1.0.0",
+    "description": "This is a system monitoring resource application. It provides information about the system you're working on: computer name, operating system, system uptime, system memory, etc.",
+    "main": "backend/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron .",
+        "watch": "nodemon --exec electron ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^27.0.4"
+    },
+    "dependencies": {
+        "shelljs": "^0.8.5"
+    }
+}
